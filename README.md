@@ -12,6 +12,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
   - sklearn.model_selection
   - imblearn.metrics
 - LoanStats_2019Q1.csv
+- screenshots
 
 ## Results
 
@@ -101,4 +102,31 @@ Low Risk Performance:
 
 ## Summary
 
+Given that the formula for calculating F1 scores is F1 = 2(Precision * Sensitivity)/(Precision + Sensitivity), these are the following calculations:
+
+Naive Random Oversampling
+0.01972222222
+0.75
+
+SMOTE Oversampling
+0.0196875
+0.81656804733
+
+Undersampling (Cluster Centroids)
+0.01971428571
+0.57142857142
+
+Combination (Over and Under) Sampling (SMOTEENN)
+0.01972602739
+0.72611464968
+
+Balanced Random Forest Classifier
+0.05753424657
+0.93048128342
+
+Easy Ensemble AdaBoost Classifier
+0.16396039604
+0.96907216494
+
+Given these calculations, 
 
