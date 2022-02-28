@@ -15,6 +15,29 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ## Results
 
+### Naive Random Oversampling
+
+![1.JPG](https://github.com/mathur-nikita/Credit_Risk_Analysis/blob/main/screenshots/1.JPG)
+
+### SMOTE Oversampling
+
+![2.JPG](https://github.com/mathur-nikita/Credit_Risk_Analysis/blob/main/screenshots/2.JPG)
+
+### Undersampling (Cluster Centroids)
+
+![3.JPG](https://github.com/mathur-nikita/Credit_Risk_Analysis/blob/main/screenshots/3.JPG)
+
+### Combination (Over and Under) Sampling (SMOTEENN)
+
+![4.JPG](https://github.com/mathur-nikita/Credit_Risk_Analysis/blob/main/screenshots/4.JPG)
+
+### Balanced Random Forest Classifier
+
+![5.JPG](https://github.com/mathur-nikita/Credit_Risk_Analysis/blob/main/screenshots/5.JPG)
+
+### Easy Ensemble AdaBoost Classifier
+
+![6.JPG](https://github.com/mathur-nikita/Credit_Risk_Analysis/blob/main/screenshots/6.JPG)
 
 ## Summary
 
