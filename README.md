@@ -105,27 +105,27 @@ Low Risk Performance:
 Given that the formula for calculating F1 scores is F1 = 2(Precision * Sensitivity)/(Precision + Sensitivity), these are the following calculations:
 
 Naive Random Oversampling:
-0.01972222222
-0.75
+- 0.01972222222
+- 0.75
 
 SMOTE Oversampling:
-0.0196875
-0.81656804733
+- 0.0196875
+- 0.81656804733
 
 Undersampling (Cluster Centroids):
-0.01971428571
-0.57142857142
+- 0.01971428571
+- 0.57142857142
 
 Combination (Over and Under) Sampling (SMOTEENN):
-0.01972602739
-0.72611464968
+- 0.01972602739
+- 0.72611464968
 
 Balanced Random Forest Classifier:
-0.05753424657
-0.93048128342
+- 0.05753424657
+- 0.93048128342
 
 Easy Ensemble AdaBoost Classifier:
-0.16396039604
-0.96907216494
+- 0.16396039604
+- 0.96907216494
 
-Given these calculations, the best forming model is the Easy Ensemble AdaBoost Classifier with a score of 0.96907216494, while the worst forming model is Cluster Centroid with a score of 0.57142857142.
+Given these calculations, the best forming model is the Easy Ensemble AdaBoost Classifier with a score of 0.96907216494, while the worst forming model is Cluster Centroid with a score of 0.57142857142.  The Easy Ensemble AdaBoost Classifier is recommended for predicting credit risk.
